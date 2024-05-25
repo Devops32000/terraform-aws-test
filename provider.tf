@@ -6,10 +6,10 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "vpc-bucket12"
-    key = "expense-vpc"
+    bucket = "dasw-buck"
+    key = "expense-vpc12"
     region = "us-east-1"
-    dynamodb_table = "dasw-locking"
+    dynamodb_table = "dasw-lock"
     
   }
 }
