@@ -7,7 +7,7 @@ terraform {
   }
   backend "s3" {
     bucket = "dasw-buck"
-    key = "expense-vpc12"
+    key = "expense-vpc13"
     region = "us-east-1"
     dynamodb_table = "dasw-lock"
     
